@@ -1,3 +1,4 @@
+'''
 # Define here the models for your scraped items
 #
 # See documentation in:
@@ -10,3 +11,8 @@ class FundrazrItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass
+'''
+import scrapy
+
+class GoogleItem(scrapy.Item):
+    newsTitle = scrapy.Field()
