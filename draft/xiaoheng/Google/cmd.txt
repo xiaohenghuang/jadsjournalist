@@ -23,3 +23,8 @@ https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp0Y1RjU0FtVnVHZ0pWV
 
 health
 https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3QwTlRFU0FtVnVLQUFQAQ?hl=en-US&gl=US&ceid=US%3Aen
+
+######
+response.xpath("//div[contains(@class, 'xMjzl')]/h2[contains(@class,'OJMBqe')]//text()").extract()[0]
+
+response.xpath("//h3[contains(@class, 'ipQwMb ekueJc RD0gLb')]//a[contains(@class, 'DY5T1d RZIKme')]/text()").extract()
